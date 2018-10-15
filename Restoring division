@@ -1,0 +1,6 @@
+m = input('Enter 1st multiplicand as binary')
+q = input('Enter 2nd multiplicand as binary')
+count = len(m) 
+a = '0'
+for i in range(1,count): #to make a have as many digits as m&q
+    a = a+'0'
